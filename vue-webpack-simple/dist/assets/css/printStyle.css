@@ -1,0 +1,57 @@
+.print {
+	width: 210px;
+	padding: 15px;
+	text-align: center;
+	padding-top: 0px;
+}
+
+.print h1 {
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+.print ul {
+	padding: 9px 0;
+	margin: 0;
+}
+
+.print li {
+	list-style: none;
+	font-size: 36px;
+	line-height: 2;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.print .qrcode {
+	margin-bottom: 30px;
+	text-align: right;
+}
+
+.print .qrcode img {
+	width: 200px;
+}
+
+.print .pull-content {
+	
+}
+
+.print .pull-left {
+	float: left;
+}
+
+.print .content {
+	padding-left: 10px;
+}
+
+.print .text-center {
+	text-align: center
+}
+
+.print .text-warning {
+	font-size: 40px;
+}
+
+
+

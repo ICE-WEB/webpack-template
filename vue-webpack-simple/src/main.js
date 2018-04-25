@@ -16,12 +16,19 @@ Vue.use(Loading);
 Vue.use(Navigation);
 Vue.use(Tabbar);
 
+
+//全局状态的双向绑定。主要 用于跨越多个组件之间动态变量的双向绑定。
 var store = new Vuex.Store({
-	state:{},
-	mutations:{}
+	state:{name:'HELLO'},
+	mutations:{
+		updateName:function(state,val){
+			state.name = val;
+		}
+	}
 });
 
 
+//页面跳转的管理。包括url的管理，静态资源加载的管理，页面渲染的管理。
 var router = new VueRouter({
 	routes,
 	mode:'history',//url规则
